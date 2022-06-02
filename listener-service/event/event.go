@@ -14,7 +14,6 @@ func declareExchange(ch *amqp.Channel) error {
 		false,        // no-wait?
 		nil,          // arguments?
 	)
-
 }
 
 func declareRandomQueue(ch *amqp.Channel) (amqp.Queue, error) {
@@ -26,5 +25,4 @@ func declareRandomQueue(ch *amqp.Channel) (amqp.Queue, error) {
 		false, // no-wait?
 		nil,   // arguments?
 	)
-
 }

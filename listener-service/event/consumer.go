@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	amqp "github.com/rabbitmq/amqp091-go"
 	"log"
 	"net/http"
+
+	amqp "github.com/rabbitmq/amqp091-go"
 )
 
 type Consumer struct {
@@ -65,7 +66,6 @@ func (consumer *Consumer) Listen(topics []string) error {
 		if err != nil {
 			return err
 		}
-
 	}
 
 	messages, err := ch.Consume(q.Name, "", true, false, false, false, nil)
@@ -83,7 +83,7 @@ func (consumer *Consumer) Listen(topics []string) error {
 		}
 	}()
 
-	fmt.Printf("Waiting for message [Exchange, Queue], [logs_topic, %s]\n", q.Name)
+	fmt.Printf("Waiting for message [Exchange, Queue] [logs_topic, %s]\n", q.Name)
 	<-forever
 
 	return nil
@@ -97,10 +97,11 @@ func handlePayload(payload Payload) {
 		if err != nil {
 			log.Println(err)
 		}
+
 	case "auth":
 		// authenticate
 
-	// you can have as many cases as you want, as lon as you write the logic
+	// you can have as many cases as you want, as long as you write the logic
 
 	default:
 		err := logEvent(payload)
@@ -135,5 +136,4 @@ func logEvent(entry Payload) error {
 	}
 
 	return nil
-
 }
