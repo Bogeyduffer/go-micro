@@ -78,10 +78,12 @@ services:
     image: 'mongo:4.2.16-bionic'
     ports:
       - "27017:27017"
-    environment:
-      MONGO_INITDB_DATABASE: logs
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: password
+    env_file:
+      - .env
+    #    environment:
+    #      MONGO_INITDB_DATABASE: logs
+    #      MONGO_INITDB_ROOT_USERNAME: admin
+    #      MONGO_INITDB_ROOT_PASSWORD: password
     volumes:
       - ./db-data/mongo/:/data/db
 
@@ -117,9 +119,9 @@ services:
       mode: replicated
       replicas: 1
     volumes:
-      - ./db/data/rabbitmq/:/var/lib/rabbitmq/
+      - ./db-data/rabbitmq/:/var/lib/rabbitmq/
 
 volumes:
-  postgres:
+  #  postgres:
   pgadmin:
-  rabbitmq:
+#  rabbitmq:
