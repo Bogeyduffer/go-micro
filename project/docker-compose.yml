@@ -13,7 +13,6 @@ services:
       mode: replicated
       replicas: 1
 
-
   logger-service:
     build:
       context: ./../logger-service
@@ -22,7 +21,6 @@ services:
     deploy:
       mode: replicated
       replicas: 1
-
 
   mailer-service:
     build:
@@ -47,8 +45,11 @@ services:
     deploy:
       mode: replicated
       replicas: 1
+    #    env_file:
+    #      - .env
+
     environment:
-      DSN: "host=postgres port=5432 user=postgres password=password dbname=users sslmode=disable timezone=UTC connect_timeout=5"
+      DSN: "host=postgres port=5432 user=postgres password=verysecret dbname=users sslmode=disable timezone=UTC connect_timeout=5"
 
 
   listener-service:
@@ -58,7 +59,7 @@ services:
     deploy:
       mode: replicated
       replicas: 1
-  
+
   postgres:
     image: 'postgres:14.2'
     ports:
@@ -71,8 +72,6 @@ services:
       - .env
     volumes:
       - ./db-data/postgres/:/var/lib/postgresql/data/
-
-
 
   mongo:
     image: 'mongo:4.2.16-bionic'
@@ -96,12 +95,11 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4:6.9
-
     env_file:
       - .env
       # environment:
-      # PGADMIN_DEFAULT_EMAIL: admin@pgadmin.com
-      # PGADMIN_DEFAULT_PASSWORD: password
+      # PGADMIN_DEFAULT_EMAIL: bob@busapp.com
+      # PGADMIN_DEFAULT_PASSWORD: @@Busterdog99
       # PGADMIN_LISTEN_PORT: 80
     ports:
       - 15432:80
@@ -122,6 +120,6 @@ services:
       - ./db-data/rabbitmq/:/var/lib/rabbitmq/
 
 volumes:
-  #  postgres:
+  postgres:
   pgadmin:
-#  rabbitmq:
+  rabbitmq:

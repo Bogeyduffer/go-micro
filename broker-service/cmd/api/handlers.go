@@ -44,7 +44,7 @@ type LogPayload struct {
 }
 
 // Broker is a test handler, just to make sure we can hit the broker from a web client
-func (app *Config) Broker(w http.ResponseWriter, r *http.Request) {
+func (app *Config) Broker(w http.ResponseWriter, _ *http.Request) {
 	payload := jsonResponse{
 		Error:   false,
 		Message: "Hit the broker",
