@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ce188bd-4ef3-4468-9762-f72d6206e188" name="Changes" comment="After Section 8 using gRPC calls and after second clean up.">
+      <change afterPath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/.metrics.interim.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/metrics.2022-06-08T03-41-36Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/metrics.2022-06-08T14-53-55Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/metrics.2022-06-08T15-00-17Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/mongo/journal/WiredTigerLog.0000000021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/1249 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/1249_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/1259 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/1259_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/1259_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/13575_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/13580 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/13585 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/13585_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/13588 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/13589 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/1417 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/1418 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2187 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2224 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2328 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2336 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2337 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2600 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2600_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2601 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2602 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2602_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2602_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2603 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2603_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2603_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2604 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2605 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2605_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2605_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2606 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2607 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2607_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2607_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2608 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2609 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2609_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2610 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2611 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2612 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2613 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2615 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2615_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2616 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2616_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2617 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2617_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2618 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2619 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2620 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2656 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2657 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2699 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2702 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2753 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2753_fsm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2753_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2830 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2831 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2832 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2833 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2834 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2835 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2836 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2836_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2837 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2838 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2839 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2840 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2840_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2841 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2995 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/2996 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3079 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3079_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3118 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3256 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3350 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3379 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3381 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3394 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3429 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3430 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3431 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3433 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3439 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3440 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3456 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3466 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3501 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3502 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3503 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3534 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3541 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3576 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3596 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3597 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3598 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3599 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3600 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3601 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3601_vm 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3602 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3603 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/3764 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4144 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4145 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4146 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4148 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4149 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4150 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4151 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4154 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4155 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4157 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4158 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4159 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4160 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4163 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4164 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4165 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4167 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4169 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4170 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4171 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/4172 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/5002 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/6102 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/6104 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/6106 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/6111 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/6113 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/6117 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/6176 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/826 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/827 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/1/pg_filenode 2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/1247_vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/1249_vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/1255_vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/13578" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/13579" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/13580_vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/13583" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/13584" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/13594" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/1417" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/2224" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/2699" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/13756/2701" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/16384/16385" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/base/16384/16391" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/pg_multixact/members/0000 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/pg_subtrans/0000 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/postgres/pg_xact/0000 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22-feature_flags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22.pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/DECISION_TAB.LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/LATEST.LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/cluster_nodes.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/coordination/rabbit@1b0e22744b22/00000001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/coordination/rabbit@1b0e22744b22/meta.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/coordination/rabbit@1b0e22744b22/names.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.vhost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/0.rdq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/0.rdq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/nodes_running_at_shutdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/quorum/rabbit@1b0e22744b22/00000001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/quorum/rabbit@1b0e22744b22/meta.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/quorum/rabbit@1b0e22744b22/names.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_durable_exchange.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_durable_queue.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_durable_queue.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_durable_route.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_runtime_parameters.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_serial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_topic_permission.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_user.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_user_permission.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/rabbit_vhost.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/schema.DAT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@1b0e22744b22/schema_version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5-feature_flags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/DECISION_TAB.LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/LATEST.LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/cluster_nodes.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/coordination/rabbit@608080b57ca5/00000001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/coordination/rabbit@608080b57ca5/meta.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/coordination/rabbit@608080b57ca5/names.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.vhost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/0.rdq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/clean.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/file_summary.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/msg_store_index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/0.rdq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/clean.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/file_summary.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/msg_store_index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/nodes_running_at_shutdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/quorum/rabbit@608080b57ca5/00000001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/quorum/rabbit@608080b57ca5/meta.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/quorum/rabbit@608080b57ca5/names.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_durable_exchange.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_durable_exchange.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_durable_queue.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_durable_queue.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_durable_route.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_runtime_parameters.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_runtime_parameters.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_serial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_topic_permission.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_user.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_user_permission.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_user_permission.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/rabbit_vhost.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/schema.DAT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@608080b57ca5/schema_version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e-feature_flags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/DECISION_TAB.LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/LATEST.LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/cluster_nodes.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/coordination/rabbit@6bc4fd0f605e/00000001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/coordination/rabbit@6bc4fd0f605e/meta.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/coordination/rabbit@6bc4fd0f605e/names.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.vhost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/0.rdq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/clean.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/file_summary.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/msg_store_index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/0.rdq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/clean.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/file_summary.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/msg_store_index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/nodes_running_at_shutdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/quorum/rabbit@6bc4fd0f605e/00000001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/quorum/rabbit@6bc4fd0f605e/meta.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/quorum/rabbit@6bc4fd0f605e/names.dets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_durable_exchange.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_durable_exchange.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_durable_queue.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_durable_queue.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_durable_route.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_runtime_parameters.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_runtime_parameters.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_serial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_topic_permission.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_user.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_user_permission.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_user_permission.DCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/rabbit_vhost.DCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/schema.DAT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@6bc4fd0f605e/schema_version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/collection-0--2404606024660866762.wt" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/collection-0--2404606024660866762.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/collection-4-4282151149362832609.wt" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/collection-4-4282151149362832609.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/metrics.interim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-1--2404606024660866762.wt" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/index-1--2404606024660866762.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-5-4282151149362832609.wt" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/index-5-4282151149362832609.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-6-4282151149362832609.wt" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/index-6-4282151149362832609.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/mongo/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/postgres/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/postgres/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/db_0.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/db_13757.stat" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/db_13757.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/db_16384.stat" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/db_16384.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/project/db-data/postgres/pg_stat_tmp/global.stat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Go File" />
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="mySelectedFileTypes">
+      <set>
+        <option value="Go" />
+        <option value="Go Template" />
+        <option value="HTML" />
+        <option value="JSON" />
+        <option value="JavaScript" />
+        <option value="Makefile" />
+        <option value="SQL" />
+        <option value="YAML" />
+      </set>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/authentication-service/cmd/api/handlers.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/broker-service/cmd/api/handlers.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/broker-service/event/consumer.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/broker-service/logs/logs.proto" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logger-service/cmd/api/grpc.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logger-service/cmd/api/handlers.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logger-service/cmd/api/routes.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logger-service/cmd/api/rpc.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logger-service/logs/logs.proto" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/project/Makefile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/project/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29tU55cg9lwkApWGU3DCNDSr04Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bob&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-user-service/cmd/api" />
+      <recent name="$PROJECT_DIR$/auth-user-service" />
+      <recent name="$PROJECT_DIR$/user-service/cmd/api" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/broker-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-user-service/users" />
+      <recent name="$PROJECT_DIR$/listener-service/event" />
+      <recent name="$PROJECT_DIR$/logger-service/cmd/api" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="After building logger service/chapter 37" />
+    <MESSAGE value="After lecture 51" />
+    <MESSAGE value="After lecture 57" />
+    <MESSAGE value="After Section 6 using RabbitMQ" />
+    <MESSAGE value="After Section 7 using RPC calls." />
+    <MESSAGE value="After Section 8 using gRPC calls." />
+    <MESSAGE value="After Section 8 using gRPC calls and after second clean up." />
+    <option name="LAST_COMMIT_MESSAGE" value="After Section 8 using gRPC calls and after second clean up." />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
