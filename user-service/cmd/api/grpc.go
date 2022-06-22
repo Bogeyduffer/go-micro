@@ -34,7 +34,7 @@ func (l *UserServer) WriteUser(ctx context.Context, req *users.UserRequest) (*us
 	}
 
 	// return response
-	res := &users.UserResponse{Result: "user"}
+	res := &users.UserResponse{Result: "inserted"}
 	return res, nil
 }
 

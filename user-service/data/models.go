@@ -109,6 +109,18 @@ func (l *User) GetOne(id string) (*User, error) {
 	return &entry, nil
 }
 
+func (l *User) DropCollection() error {
+	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
+	defer cancel()
+
+	collection := client.Database("users").Collection("users")
+
+	if err := collection.Drop(ctx); err != nil {
+		return err
+	}
+
+	return nil
+}
 func (l *User) Update() (*mongo.UpdateResult, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
@@ -142,15 +154,3 @@ func (l *User) Update() (*mongo.UpdateResult, error) {
 	return result, nil
 }
 
-func (l *User) DropCollection() error {
-	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
-	defer cancel()
-
-	collection := client.Database("users").Collection("users")
-
-	if err := collection.Drop(ctx); err != nil {
-		return err
-	}
-
-	return nil
-}

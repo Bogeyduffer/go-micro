@@ -3,6 +3,7 @@ package main
 import (
 	"broker/event"
 	"broker/logs"
+	"broker/users"
 	"bytes"
 	"context"
 	"encoding/json"
@@ -21,6 +22,16 @@ type RequestPayload struct {
 	Auth   AuthPayload `json:"auth,omitempty"`
 	Log    LogPayload  `json:"log,omitempty"`
 	Mail   MailPayload `json:"mail,omitempty"`
+	User   UserPayload `json:"user,omitempty"`
+}
+
+// UserPayload is the embedded type (in RequestPayload) that describes an email message to be sent
+type UserPayload struct {
+	Email     string `json:"email""`
+	FirstName string `json:"first_name"`
+	LastName  string `json:"last-name"`
+	Password  string `json:"password"`
+	Active    string `json:"active"`
 }
 
 // MailPayload is the embedded type (in RequestPayload) that describes an email message to be sent
@@ -280,13 +291,19 @@ func (app *Config) LogViaGRPC(w http.ResponseWriter, r *http.Request) {
 
 	err := app.readJSON(w, r, &requestPayload)
 	if err != nil {
-		app.errorJSON(w, err)
+		err := app.errorJSON(w, err)
+		if err != nil {
+			return
+		}
 		return
 	}
 
 	conn, err := grpc.Dial("logger-service:50001", grpc.WithTransportCredentials(insecure.NewCredentials()), grpc.WithBlock())
 	if err != nil {
-		app.errorJSON(w, err)
+		err := app.errorJSON(w, err)
+		if err != nil {
+			return
+		}
 		return
 	}
 	defer conn.Close()
@@ -309,6 +326,53 @@ func (app *Config) LogViaGRPC(w http.ResponseWriter, r *http.Request) {
 	var payload jsonResponse
 	payload.Error = false
 	payload.Message = "logged"
+
+	app.writeJSON(w, http.StatusAccepted, payload)
+}
+
+func (app *Config) UserViaGRPC(w http.ResponseWriter, r *http.Request) {
+	var requestPayload RequestPayload
+
+	err := app.readJSON(w, r, &requestPayload)
+	if err != nil {
+		err := app.errorJSON(w, err)
+		if err != nil {
+			return
+		}
+		return
+	}
+
+	conn, err := grpc.Dial("user-service:50001", grpc.WithTransportCredentials(insecure.NewCredentials()), grpc.WithBlock())
+	if err != nil {
+		err := app.errorJSON(w, err)
+		if err != nil {
+			return
+		}
+		return
+	}
+	defer conn.Close()
+
+	c := users.NewUserServiceClient(conn)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
+	defer cancel()
+
+	_, err = c.WriteUser(ctx, &users.UserRequest{
+		User: &users.User{
+			Email:     requestPayload.User.Email,
+			FirstName: requestPayload.User.FirstName,
+			LastName:  requestPayload.User.LastName,
+			Active:    requestPayload.User.Active,
+			Password:  requestPayload.User.Password,
+		},
+	})
+	if err != nil {
+		app.errorJSON(w, err)
+		return
+	}
+
+	var payload jsonResponse
+	payload.Error = false
+	payload.Message = "posted"
 
 	app.writeJSON(w, http.StatusAccepted, payload)
 }

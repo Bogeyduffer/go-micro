@@ -5,85 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7179b0-0f83-4a5d-ad71-f2eb619bebfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/cmd/api/grpc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/cmd/api/handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/cmd/api/helpers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/cmd/api/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/cmd/api/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/cmd/api/rpc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/data/models.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/user-service.dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/users/users.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/users/users.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/users/users_grpc.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broker-service/users/users.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broker-service/users/users.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broker-service/users/users_grpc.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authentication-service/authApp" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/authApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/broker-service/brokerApp" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/brokerApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker-service/cmd/api/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/cmd/api/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker-service/cmd/api/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/cmd/api/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker-service/logs/logs.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/logs/logs.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/frontApp" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/frontApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listener-service/listenerApp" beforeDir="false" afterPath="$PROJECT_DIR$/listener-service/listenerApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/cmd/api/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logger-service/loggerServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/loggerServiceApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail-service/mailerApp" beforeDir="false" afterPath="$PROJECT_DIR$/mail-service/mailerApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/project/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger.turtle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/WiredTiger.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/WiredTigerLAS.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/_mdb_catalog.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/collection-0-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/collection-2-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/collection-4-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/collection-8-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/metrics.2022-06-07T16-03-05Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/metrics.2022-06-07T16-03-13Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/diagnostic.data/metrics.interim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-1-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-10-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-3-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-5-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-6-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/index-9-4282151149362832609.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/journal/WiredTigerPreplog.0000000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/journal/WiredTigerPreplog.0000000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/mongod.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/sizeStorer.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/mongo/storage.bson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/postgres/postmaster.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/.erlang.cookie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91-feature_flags" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/DECISION_TAB.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/LATEST.LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/cluster_nodes.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/coordination/rabbit@4ea444a57c91/00000001.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/coordination/rabbit@4ea444a57c91/meta.dets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/coordination/rabbit@4ea444a57c91/names.dets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.vhost" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/0.rdq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/0.rdq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/nodes_running_at_shutdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/quorum/rabbit@4ea444a57c91/00000001.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/quorum/rabbit@4ea444a57c91/meta.dets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/quorum/rabbit@4ea444a57c91/names.dets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_durable_exchange.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_durable_exchange.DCL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_durable_queue.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_durable_queue.DCL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_durable_route.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_runtime_parameters.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_runtime_parameters.DCL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_serial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_topic_permission.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_user.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_user_permission.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_user_permission.DCL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/rabbit_vhost.DCD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/schema.DAT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/mnesia/rabbit@4ea444a57c91/schema_version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/cmd/api/grpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/cmd/api/grpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/cmd/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/data/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/data/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/userServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userServiceApp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +35,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/broker-service/cmd/api/handlers.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/project/Makefile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/project/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/user-service/cmd/api/grpc.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/user-service/cmd/api/handlers.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/user-service/cmd/api/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/user-service/cmd/api/rpc.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/user-service/data/models.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/user-service/user-service.dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/user-service/users/users.proto" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AuGE7f56fycOHAENoJmfB732pU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -115,13 +65,18 @@
     "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/bob/Documents/go/goProjects/Udemy working with micro services in go/go-micro-2",
+    "last_opened_file_path": "/Users/bob/Documents/go/goProjects/Udemy working with micro services in go/go-micro-2/broker-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/broker-service" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
