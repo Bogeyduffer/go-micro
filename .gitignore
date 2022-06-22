@@ -20,10 +20,8 @@ node_modules
 .sass-cache
 
 # Compiled applications
-authApp
-brokerApp
-frontApp
-listenerApp
-loggerServiceApp
-mailerApp
-userApp
+../authentication-service/authApp
+../broker-service/brokerApp
+../listener-service/listenerApp
+../logger-service/loggerServiceApp
+../mail-service/mailerApp

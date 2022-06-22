@@ -15,6 +15,9 @@ up:
 up_build: build_broker build_auth build_logger build_mail build_listener
 	@echo "Stopping docker images (if running...)"
 	docker-compose down
+	@echo "Removing postgres database..."
+	@if test -d db-data/postgres; then echo ----- Removing postgres Database; fi
+	@if test -d db-data/postgres; then rm -R db-data/postgres; fi
 	@echo "Building (when required) and starting docker images..."
 	docker-compose up --build -d
 	@echo "Docker images built and started!"
