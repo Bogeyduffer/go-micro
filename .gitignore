@@ -19,9 +19,3 @@ node_modules
 # Ignore SASS config files
 .sass-cache
 
-# Compiled applications
-../authentication-service/authApp
-../broker-service/brokerApp
-../listener-service/listenerApp
-../logger-service/loggerServiceApp
-../mail-service/mailerApp
