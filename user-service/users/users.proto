@@ -1,0 +1,28 @@
+syntax = "proto3";
+// protoc is in /user/local/bin
+// change your directory to /user-server/data and then run the following
+// protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative users.proto
+
+package users;
+
+option go_package = "/users";
+
+message User{
+  string email = 1;
+  string last_name = 2;
+  string first_name = 3;
+  string password = 4;
+  string active = 5;
+}
+
+message UserRequest {
+  User user = 1;
+}
+
+message UserResponse {
+  string result = 1;
+}
+
+service UserService {
+  rpc WriteUser(UserRequest) returns(UserResponse);
+}
