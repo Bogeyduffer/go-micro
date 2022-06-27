@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a7179b0-0f83-4a5d-ad71-f2eb619bebfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/broker-service/users/users.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/broker-service/users/users.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/broker-service/users/users_grpc.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/authApp" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/authApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/broker-service/brokerApp" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/brokerApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/broker-service/cmd/api/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/cmd/api/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/broker-service/cmd/api/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/cmd/api/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/broker-service/logs/logs.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/logs/logs.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/frontApp" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/frontApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listener-service/listenerApp" beforeDir="false" afterPath="$PROJECT_DIR$/listener-service/listenerApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/cmd/api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger-service/loggerServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/loggerServiceApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail-service/mailerApp" beforeDir="false" afterPath="$PROJECT_DIR$/mail-service/mailerApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/cmd/api/grpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/cmd/api/grpc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/cmd/api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/data/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/data/models.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/userServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userServiceApp" afterDir="false" />
-    </list>
+    <list default="true" id="9a7179b0-0f83-4a5d-ad71-f2eb619bebfc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +16,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/broker-service/cmd/api/handlers.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/broker-service/cmd/api/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/broker-service/cmd/api/routes.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logger-service/cmd/api/grpc.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logger-service/cmd/api/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/project/Makefile" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/project/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/user-service/cmd/api/grpc.go" root0="FORCE_HIGHLIGHTING" />
@@ -55,23 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/bob/Documents/go/goProjects/Udemy working with micro services in go/go-micro-2/broker-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bob/Documents/go/goProjects/Udemy working with micro services in go/go-micro-2/broker-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/broker-service" />
