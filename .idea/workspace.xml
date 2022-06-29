@@ -9,18 +9,12 @@
       <change beforePath="$PROJECT_DIR$/authentication-service/authApp" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/authApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/broker-service/brokerApp" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/brokerApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/frontApp" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/frontApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listener-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/listener-service/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listener-service/listenerApp" beforeDir="false" afterPath="$PROJECT_DIR$/listener-service/listenerApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logger-service/loggerServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/loggerServiceApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail-service/mailerApp" beforeDir="false" afterPath="$PROJECT_DIR$/mail-service/mailerApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/project/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/project/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db-data/rabbitmq/.erlang.cookie" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/cmd/api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/userServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userServiceApp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

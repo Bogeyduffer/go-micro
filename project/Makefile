@@ -27,13 +27,9 @@ down:
 	@echo "Done!"
 
 ## down: stop docker compose
-down_destroy:
-	@echo "Executing down_destroy!"
-	@echo "Stopping docker compose..."
-	docker-compose down
+down_destroy: down
 	@echo "Deleting persistent Databases!"
 	rm -r ./db-data/mongo
-	rm ./db-data/rabbitmq/.erlang.cookie
 	rm -r ./db-data/rabbitmq
 	rm -r ./db-data/postgres/*
 	@echo "Done!"
