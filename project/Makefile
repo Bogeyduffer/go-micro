@@ -13,7 +13,7 @@ up:
 	@echo "Docker images started!"
 
 ## up_build: stops docker-compose (if running), builds all projects and starts docker compose
-up_build: build_user build_broker build_auth build_logger build_mail build_listener
+up_build: build_user build_broker build_logger build_mail build_listener // build_auth
 	@echo "Stopping docker images (if running...)"
 	docker-compose down
 	@echo "Building (when required) and starting docker images..."
@@ -33,6 +33,7 @@ down_destroy:
 	docker-compose down
 	@echo "Deleting persistent Databases!"
 	rm -r ./db-data/mongo
+	rm ./db-data/rabbitmq/.erlang.cookie
 	rm -r ./db-data/rabbitmq
 	rm -r ./db-data/postgres/*
 	@echo "Done!"

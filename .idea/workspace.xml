@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a7179b0-0f83-4a5d-ad71-f2eb619bebfc" name="Changes" comment="" />
+    <list default="true" id="9a7179b0-0f83-4a5d-ad71-f2eb619bebfc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-service/authApp" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/authApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker-service/brokerApp" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/brokerApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/frontApp" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/frontApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/listener-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener-service/listenerApp" beforeDir="false" afterPath="$PROJECT_DIR$/listener-service/listenerApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger-service/loggerServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/loggerServiceApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-service/mailerApp" beforeDir="false" afterPath="$PROJECT_DIR$/mail-service/mailerApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/project/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/project/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/cmd/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/userServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userServiceApp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +53,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AuGE7f56fycOHAENoJmfB732pU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,11 +70,12 @@
     &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bob/Documents/go/goProjects/Udemy working with micro services in go/go-micro-2/broker-service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bob/go/src/Udemy working with micro services in go/go-micro-2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">

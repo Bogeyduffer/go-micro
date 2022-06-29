@@ -44,23 +44,23 @@ services:
 
 
 
-  authentication-service:
-    build:
-      context: ./../authentication-service
-      dockerfile: ./../authentication-service/authentication-service.dockerfile
-    restart: always
-    ports:
-      - "8081:80"
-    deploy:
-      mode: replicated
-      replicas: 1
-    #    env_file:
-    #      - .env
-
-    environment:
-      DSN: "host=postgres port=5432 user=postgres password=verysecret dbname=users sslmode=disable timezone=UTC connect_timeout=5"
-
-
+#  authentication-service:
+#    build:
+#      context: ./../authentication-service
+#      dockerfile: ./../authentication-service/authentication-service.dockerfile
+#    restart: always
+#    ports:
+#      - "8081:80"
+#    deploy:
+#      mode: replicated
+#      replicas: 1
+#    #    env_file:
+#    #      - .env
+#
+#    environment:
+#      DSN: "host=postgres port=5432 user=postgres password=verysecret dbname=users sslmode=disable timezone=UTC connect_timeout=5"
+#
+#
   listener-service:
     build:
       context: ./../listener-service
