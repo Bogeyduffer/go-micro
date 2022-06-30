@@ -27,11 +27,7 @@ down:
 	@echo "Done!"
 
 ## down: stop docker compose
-down_destroy: down
-	@echo "Deleting persistent Databases!"
-	rm -r ./db-data/mongo
-	rm -r ./db-data/rabbitmq
-	rm -r ./db-data/postgres/*
+down_destroy: down down_mongo down_rabbitmq down_postgres_content down_postgres_directory
 	@echo "Done!"
 
 ## build_broker: builds the broker binary as a linux executable
@@ -86,3 +82,23 @@ stop:
 	@echo "Stopping front end..."
 	@-pkill -SIGTERM -f "./${FRONT_END_BINARY}"
 	@echo "Stopped front end!"
+
+## down_mongo: deletes the mongo database
+down_mongo:
+	@echo "	 Deleting mongo Databases!"
+	- rm -r ./db-data/mongo
+
+## down_rabbitmq: deletes the rabbitmq database
+down_rabbitmq:
+	@echo "  Deleting rabbitmq Databases!"
+	- rm -r ./db-data/rabbitmq
+
+## down_postgres_content: Deletes the Postgres Database content
+down_postgres_content:
+	@echo "  Deleting postgres Database contents!"
+	- rm -r ./db-data/postgres/*
+
+## down_postgres_directory: Deletes the Postgres Database folder
+down_postgres_directory:
+	@echo "  Deleting postgres Database directory!"
+	- rmdir ./db-data/postgres
