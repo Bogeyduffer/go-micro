@@ -19,3 +19,10 @@ node_modules
 # Ignore SASS config files
 .sass-cache
 
+# Ignore App files
+authApp
+brokerApp
+frontApp
+listenerApp
+loggerServiceApp
+
